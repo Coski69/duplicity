@@ -1,2 +1,7 @@
 apt-get install duplicity
-ver instrucciones de duplicity --help y man duplicity.
+Ver instrucciones de duplicity --help y man duplicity.
+Explainshell programa que te explica el contenido y funcionamiento de cualquier comando de linuxbackup
+Para hacer la copia:
+    duplicity 'carpeta origen' file://'carpeta destino'
+Para recuperar la copia:
+    duplicity restore file://'carpeta de seguridad' 'carpeta destino'
