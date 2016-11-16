@@ -1,7 +1,10 @@
 apt-get install duplicity
 Ver instrucciones de duplicity --help y man duplicity.
+file:// copia en el mismo disco
+ftp:// copia en un servidor ftp
+mail:// copia en un servidor de correo
 Explainshell programa que te explica el contenido y funcionamiento de cualquier comando de linuxbackup
 Para hacer la copia:
-    duplicity 'carpeta origen' file://'carpeta destino'
+    duplicity 'ruta carpeta origen' file://'ruta carpeta destino'
 Para recuperar la copia:
-    duplicity restore file://'carpeta de seguridad' 'carpeta destino'
+    duplicity restore file://'ruta carpeta de seguridad' 'ruta carpeta destino'
